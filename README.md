@@ -1,5 +1,5 @@
 # 
-les etapes:
+Commands I  used in wsl -d Ubuntu (root@Houda:/mnt/c/Users/htagi#):
 cd  kafka-spark-hbase
 ##################
  docker compose up -d
@@ -15,6 +15,8 @@ pip install \
     pyspark
 ##################
 python3 -m venv stackoverflow-env
+####################
+cd ~
 ####################
 source venv/bin/activate
 #################
