@@ -38,6 +38,8 @@ kafka-topics.sh \
   --partitions 1 \
   --topic stackoverflow-trends
 #########################
+ python3 hbase_implementation.py
+ ####################
  python3 stack_api_to_kafka.py
 #####################
 spark-submit   --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0   spark_stream_to_hbase.py
