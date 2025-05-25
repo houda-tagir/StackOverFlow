@@ -56,11 +56,7 @@ the makets of The User are the following ones:
 
 #now what i need you to do for me
 I want you to act as a prompt engineer and project guide for my AI agent.
-I’ll explain the context of my project, and you'll:
-
-Ask me 5 or more clarifying questions to fully understand it.
-
-Based on my answers, generate a prompt that I can give to another AI agent to get useful results (code, analysis, improvements, etc.).
+I’ll explain the context of my project, and you'll help me to corredt my codes or generate code for me to realise this application:
 
 Project Overview
 My application is a StackOverflow Search Optimizer and Tag Trend Analyzer.
