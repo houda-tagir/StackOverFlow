@@ -43,3 +43,7 @@ kafka-topics.sh \
  python3 stack_api_to_kafka.py
 #####################
 spark-submit   --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0   spark_stream_to_hbase.py
+
+
+and these are the makets Of my Application:
+![image alt](https://github.com/houda-tagir/StackOverFlow/blob/main/Screenshot%202025-05-25%20121639.png?raw=true)
