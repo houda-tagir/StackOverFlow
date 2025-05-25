@@ -91,7 +91,7 @@ Search functionality (with filters and suggestions).
 
 Real-time data access from HBase/Spark.
 
-Frontend (React.js)
+Frontend (Themlief)
 
 We’ll build a user interface based on a Figma design (will be provided).
 
