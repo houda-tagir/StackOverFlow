@@ -54,3 +54,60 @@ the makets of The User are the following ones:
 ![image alt](https://github.com/houda-tagir/StackOverFlow/blob/main/Screenshot%202025-05-25%20121854.png?raw=true)
 ![image alt](https://github.com/houda-tagir/StackOverFlow/blob/main/Screenshot%202025-05-25%20121919.png?raw=true)
 
+#now what i need you to do for me
+I want you to act as a prompt engineer and project guide for my AI agent.
+I’ll explain the context of my project, and you'll:
+
+Ask me 5 or more clarifying questions to fully understand it.
+
+Based on my answers, generate a prompt that I can give to another AI agent to get useful results (code, analysis, improvements, etc.).
+
+Project Overview
+My application is a StackOverflow Search Optimizer and Tag Trend Analyzer.
+It has two main features:
+
+Search Optimizer: Fetches top 3 answers for each question using filters like score, upvotes, is_accepted=true, and user reputation.
+
+Trend Analyzer: Shows trends over year/month/week for tags like python, including how many questions were: unanswered, answered, accepted.
+
+Big Data Stack (In Progress)
+
+Kafka gets data from the StackExchange API.
+
+Spark processes the data, but we’re struggling to:
+
+Strip HTML tags (e.g. <p>).
+
+Get full content from question/answer bodies (only partial sentence appears).
+
+We use HBase for storage.
+
+Backend (Spring Boot)
+
+A project already exists on the master branch.
+
+I need help improving it and integrating features like:
+
+Search functionality (with filters and suggestions).
+
+Real-time data access from HBase/Spark.
+
+Frontend (React.js)
+
+We’ll build a user interface based on a Figma design (will be provided).
+
+Users can search questions and visualize tag trends.
+
+Trends should be animated for real-time effect.
+
+Resources Available
+
+I’ll provide code for:
+
+StackApiToKafka
+
+StreamSparkToHBase
+
+HBase implementation
+
+Figma file for UI mockups
